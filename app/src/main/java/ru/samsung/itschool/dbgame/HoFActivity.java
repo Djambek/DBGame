@@ -14,14 +14,16 @@ public class HoFActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_ho_f);
 		dbManager = DBManager.getInstance(this);
-		
+
 		TextView restv = (TextView)this.findViewById(R.id.results);
 		ArrayList<Result> results = dbManager.getAllResults();
 		String resStr = "";
+		resStr += "Games all - "+ results.size();
 		for (Result res : results)
 		{
 			resStr += res.name + ": " + res.score + "\n";
-		}	
+		}
+
 		restv.setText(resStr);
 	}
 }
