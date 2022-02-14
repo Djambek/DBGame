@@ -18,7 +18,7 @@ public class HoFActivity extends Activity {
 		TextView restv = (TextView)this.findViewById(R.id.results);
 		ArrayList<Result> results = dbManager.getAllResults();
 		String resStr = "";
-		resStr += "Games all - "+ results.size();
+		resStr += "Games all - "+ results.size()+"\n";
 		for (Result res : results)
 		{
 			resStr += res.name + ": " + res.score + "\n";
