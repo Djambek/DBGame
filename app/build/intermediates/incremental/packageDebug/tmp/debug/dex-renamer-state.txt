@@ -1,4 +1,4 @@
-#Mon Feb 14 18:19:05 MSK 2022
+#Fri Feb 18 17:53:57 MSK 2022
 base.0=/home/student1/AndroidStudioProjects/DBGameAS/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
