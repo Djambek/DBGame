@@ -1,6 +1,7 @@
 package ru.samsung.itschool.dbgame;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,9 +37,16 @@ public class ResultsAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View view = LayoutInflater.from(context).inflate(android.R.layout.simple_list_item_1, null);
-        TextView textView = view.findViewById(android.R.id.text1);
-        textView.setText(results.get(position).toString());
+        View view = LayoutInflater.from(context).inflate(R.layout.adapterview, null);
+        TextView textView = view.findViewById(R.id.text1);
+        textView.setText(results.get(position).name);
+        TextView textView_ = view.findViewById(R.id.text2);
+        if (results.get(position).score > 500){
+            textView_.setTextColor(Color.GREEN);
+        }else{
+            textView_.setTextColor(Color.RED);
+        }
+        textView_.setText(results.get(position).score+"");
         return view;
     }
 }

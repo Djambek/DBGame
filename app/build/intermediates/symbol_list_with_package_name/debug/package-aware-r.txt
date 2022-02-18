@@ -793,9 +793,11 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id text
+id text1
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id textView1
 id time
 id title
@@ -845,6 +847,7 @@ layout abc_tooltip
 layout activity_ho_f
 layout activity_main
 layout activity_stat
+layout adapterview
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action

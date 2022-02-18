@@ -4,6 +4,10 @@
         "source": "/home/student1/AndroidStudioProjects/DBGameAS/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/home/student1/AndroidStudioProjects/DBGameAS/app/build/intermediates/merged_res/debug/layout_adapterview.xml.flat",
+        "source": "/home/student1/AndroidStudioProjects/DBGameAS/app/src/main/res/layout/adapterview.xml"
+    },
+    {
         "merged": "/home/student1/AndroidStudioProjects/DBGameAS/app/build/intermediates/merged_res/debug/drawable_smallgreen.png.flat",
         "source": "/home/student1/AndroidStudioProjects/DBGameAS/app/src/main/res/drawable/smallgreen.png"
     },
