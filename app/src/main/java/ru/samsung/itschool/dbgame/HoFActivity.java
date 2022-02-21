@@ -27,6 +27,7 @@ public class HoFActivity extends Activity {
 		}
 
 		list.setAdapter(new ResultsAdapter(this,  results));
+		// simple_list_item
 
 
 	}
